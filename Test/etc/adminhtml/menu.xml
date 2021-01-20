@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+	<menu>
+
+		<add id="Custom_Test::test" title="EMPLOYEE DATA" module="Custom_Test" sortOrder="51" resource="Custom_Test::test"/>
+
+		<add id="Custom_Test::post" title="Manage Posts" module="Custom_Test" sortOrder="10" action="custom_test/post" resource="Custom_Test::post" parent="Custom_Test::test"/>
+
+		<add id="Custom_Test::test_configuration" title="Configuration" module="Custom_Test" sortOrder="99" parent="Custom_Test::test" action="adminhtml/system_config/edit/section/test" resource="Custom_Test::test_configuration"/>
+
+	</menu>
+	
+</config>
