@@ -2,7 +2,7 @@
 1. This module consists of a frontend form that collects the entered data and stores it in custom table named **custom_test**.
 2. Also, the data collected in the custom table is shown through a grid in the magento admin with the grid named as **EMPLOYEE DATA** which also consists of toolbars such as bookmark, column control, search, pagination as well as export.
 ## Basic Flow of the module
-- Firstly, after cloning the git and extracting the folder wrap it inside folder **Custom** so inshort, create your directory as magento-root-directory/Custom/cloned_directory(Test).
+- Firstly, after cloning the git and extracting the folder wrap it inside folder **Custom** so inshort, create your directory as magento-root-directory/app/code/Custom/cloned_directory(Test).
 - After that open the magento root directory in terminal and hit the following commands,
   - `sudo php bin/magento module:enable Custom_Test`
   - `sudo php bin/magento setup:upgrade`
